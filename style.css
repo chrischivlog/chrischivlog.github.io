@@ -1,0 +1,97 @@
+
+
+body {
+    background-color: #DBD8E3;
+}
+
+.menu {
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    background-blend-mode: normal;
+}
+
+h1{
+    margin-top: 10%;
+    color: #2a2438;
+    font-family: Montserrat;
+    font-size: 27px;
+    font-weight: 900;
+    margin-bottom: 20%;
+  }
+  
+.menu-link {
+    margin-top: 10%;
+    color: #5c5470;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 20%;
+
+  }
+
+.box {
+  margin-top: 5%;
+  border-radius: 32px;
+  width: 55%;
+  border: 10px solid #DBD8E3;
+  padding: 10px;
+  background-color: #ffffff;
+  text-align: left;
+}
+
+.host1 {
+  
+  margin-top: 20%;
+  border-radius: 32px;
+  width: 55%;
+  border: 30px solid #cccdd4;
+  padding: 10px;
+  background-color: #cccdd4;
+  text-align: left;
+}
+
+.dieWeltin2 {
+    color: #5c5470;
+    font-family: Montserrat;
+    font-size: 26px;
+    font-weight: 900;
+}
+  
+.text {
+    color: #2a2438;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+.rectangle {
+    border-radius: 32px;
+    background: #ffffff;
+    background-blend-mode: normal;
+  }
+
+.image {
+  margin-top: 5%;
+  width: 35px;
+  border-radius: 32px;
+}
+
+footer {
+  background-color: #cccdd4;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #5c5470;
+
+}
