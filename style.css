@@ -1,31 +1,57 @@
-
-
-body {
-    background-color: #DBD8E3;
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
-
+.background-bars {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.background-bars div {
+  flex: 1;
+}
+.bar-0 { background: #ff7b00; }
+.bar-1 { background: #ff8800; }
+.bar-2 { background: #ff9500; }
+.bar-3 { background: #ffa200; }
+.bar-4 { background: #ffaa00; }
+.bar-5 { background: #ffb700; }
+.bar-6 { background: #ffc300; }
+.bar-7 { background: #ffd000; }
+.bar-8 { background: #ffdd00; }
+.bar-9 { background: #ffea00; }
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
 .menu {
     left: 0px;
     top: 0px;
     width: 100%;
     height: auto;
-    background: #ffffff;
+    background: #191E29;
     background-blend-mode: normal;
 }
 
 h1{
     margin-top: 10%;
-    color: #2a2438;
-    font-family: Montserrat;
+    color: #ffffff;
+    font-family: "REM", sans-serif;
     font-size: 27px;
     font-weight: 900;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
   
 .menu-link {
     margin-top: 10%;
-    color: #5c5470;
-    font-family: Montserrat;
+    color: #fff;
+    font-family: "REM", sans-serif;
     font-size: 24px;
     font-weight: 900;
     margin-bottom: 20%;
@@ -33,13 +59,35 @@ h1{
   }
 
 .box {
-  margin-top: 5%;
+  margin-top: 15%;
+
   border-radius: 32px;
   width: 55%;
-  border: 10px solid #DBD8E3;
+  border: 10px solid #5e5e5f;
   padding: 10px;
-  background-color: #ffffff;
+  background-color: #191E29;
   text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu-link {
+    margin-top: 2%;
+    color: #191E29;
+    font-family: "REM", sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 2%;
+
+  }
+  .box {
+    margin-top: 117.5;
+    border-radius: 32px;
+    width: 95%;
+    border: 10px solid #191E29;
+    padding: 10px;
+    background-color: #191E29;
+    text-align: left;
+  }
 }
 
 .host1 {
@@ -54,15 +102,15 @@ h1{
 }
 
 .dieWeltin2 {
-    color: #5c5470;
-    font-family: Montserrat;
+    color: #ffffff;
+    font-family: "REM", sans-serif;
     font-size: 26px;
     font-weight: 900;
 }
   
 .text {
-    color: #2a2438;
-    font-family: Montserrat;
+    color: #d3d3d3;
+    font-family: "REM", sans-serif;
     font-size: 18px;
     font-weight: 500;
   }
@@ -92,6 +140,6 @@ footer {
 
 a {
   text-decoration: none;
-  color: #5c5470;
+  color: #ffffff;
 
 }
